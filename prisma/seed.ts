@@ -35,13 +35,19 @@ async function main() {
   })
 
   // 2. Map Products from shoes.json
+  // Brand is determined from the product TITLE (not from the unreliable brand field in JSON)
   
+  function detectBrand(title: string): string {
+    const t = title.toLowerCase();
+    if (t.includes('new balance') || t.includes('990') || t.includes('9060') || t.includes('1906') || t.includes('530') || t.includes('850') || t.includes('740') || t.includes('1000')) return 'New Balance';
+    if (t.includes('jordan') || t.includes('air jordan')) return 'Jordan';
+    if (t.includes('adidas') || t.includes('yeezy')) return 'Adidas';
+    if (t.includes('nike') || t.includes('dunk') || t.includes('air force') || t.includes('air max')) return 'Nike';
+    return 'Nike'; // fallback
+  }
+
   const products = shoesData.map((p: any, index: number) => {
-    let brandName = p.brand;
-    if (brandName.toLowerCase() === 'nike') brandName = 'Nike';
-    else if (brandName.toLowerCase() === 'adidas') brandName = 'Adidas';
-    else if (brandName.toLowerCase() === 'jordan') brandName = 'Jordan';
-    else if (brandName.toLowerCase() === 'new balance') brandName = 'New Balance';
+    const brandName = detectBrand(p.title);
 
     let catId = nike.id;
     if (brandName === 'Adidas') catId = adidas.id;
