@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "products": "Ürünler",
+    "favorites": "Favoriler",
+    "cart": "Sepet",
+    "login": "Giriş",
+    "register": "Kayıt"
+  },
+  "home": {
+    "heroTitle": "STEP SPACE",
+    "heroSubtitle": "Kusursuz sneaker deneyimini keşfet",
+    "categories": "Kategoriler",
+    "featured": "Öne Çıkanlar",
+    "allProducts": "Tüm Ürünleri Gör",
+    "dragToScroll": "KAYDIRMAK ICIN SURUKLE • YAKLASMAK ICIN TIKLA"
+  },
+  "product": {
+    "price": "₺",
+    "size": "Numara Seç",
+    "addToCart": "Sepete Ekle",
+    "added": "Eklendi ✓",
+    "reviews": "Yorumlar",
+    "noReviews": "Henüz yorum yapılmamış. İlk yorumu siz yapın!",
+    "writeReview": "Yorum Yap",
+    "rating": "Puan",
+    "comment": "Yorumunuz",
+    "submit": "Gönder",
+    "loginToReview": "Yorum yapmak için giriş yapmalısınız.",
+    "selectSize": "Lütfen önce numara seçin."
+  },
+  "cart": {
+    "title": "Sepetim",
+    "empty": "Sepetiniz boş.",
+    "total": "Toplam",
+    "checkout": "Siparişi Tamamla",
+    "continueShopping": "Alışverişe Dön"
+  },
+  "checkout": {
+    "title": "Ödeme",
+    "shipping": "Teslimat Bilgileri",
+    "name": "Ad Soyad",
+    "address": "Açık Adres",
+    "phone": "Telefon",
+    "payment": "Ödeme Yöntemi",
+    "creditCard": "Kredi Kartı (Mock)",
+    "placeOrder": "Siparişi Onayla",
+    "processing": "İşleniyor..."
+  },
+  "footer": {
+    "description": "Premium sneaker pazar yeri. En ozel ayakkabilar guvenle kapiniza gelsin.",
+    "categories": "Kategoriler",
+    "customerService": "Müşteri Hizmetleri",
+    "contact": "İletişim",
+    "faq": "Sıkça Sorulan Sorular",
+    "returns": "İade Politikası",
+    "followUs": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır. (Graduation Project)"
+  }
+}

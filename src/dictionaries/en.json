@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "products": "Products",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "heroTitle": "STEP SPACE",
+    "heroSubtitle": "Discover the perfect sneaker experience",
+    "categories": "Categories",
+    "featured": "Featured",
+    "allProducts": "View All Products",
+    "dragToScroll": "DRAG TO SCROLL • CLICK TO ZOOM"
+  },
+  "product": {
+    "price": "₺",
+    "size": "Select Size",
+    "addToCart": "Add to Cart",
+    "added": "Added ✓",
+    "reviews": "Reviews",
+    "noReviews": "No reviews yet. Be the first to review!",
+    "writeReview": "Write a Review",
+    "rating": "Rating",
+    "comment": "Your Comment",
+    "submit": "Submit",
+    "loginToReview": "You must login to write a review.",
+    "selectSize": "Please select a size first."
+  },
+  "cart": {
+    "title": "My Cart",
+    "empty": "Your cart is empty.",
+    "total": "Total",
+    "checkout": "Checkout",
+    "continueShopping": "Continue Shopping"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping": "Shipping Details",
+    "name": "Full Name",
+    "address": "Full Address",
+    "phone": "Phone",
+    "payment": "Payment Method",
+    "creditCard": "Credit Card (Mock)",
+    "placeOrder": "Place Order",
+    "processing": "Processing..."
+  },
+  "footer": {
+    "description": "Premium sneaker marketplace. The most special shoes safely delivered to your door.",
+    "categories": "Categories",
+    "customerService": "Customer Service",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "returns": "Return Policy",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved. (Graduation Project)"
+  }
+}

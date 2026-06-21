@@ -1,0 +1,410 @@
+PAGES 12
+
+--- PAGE 1 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+MULTIACADEMY
+REACT FOUNDATIONS
+Web Development Certification Course
+MEZUNİYET PROJESİ
+E-TİCARET UYGULAMASI
+Proje Gereksinim Dokümanı ve Değerlendirme Kılavuzu
+Sayfa 1
+
+--- PAGE 2 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+İçindekiler
+İçindekiler 1
+1. Proje Genel Bakış 1
+1.1 Amaç 1
+1.2 Proje Tanımı 1
+1.3 Genel Kurallar 1
+1.4 Ön Koşullar (Zorunlu) 1
+2. Veritabanı Tasarımı 1
+2.1 Tablolar 1
+2.3 İlişki Diyagramı 1
+2.4 Önemli Notlar 1
+3. Fonksiyonel Gereksinimler 1
+3.1 Kimlik Doğrulama (Authentication) 1
+3.2 Ürün Listeleme ve Arama 1
+3.3 Sepet Yönetimi (Shopping Cart) 1
+3.4 Sipariş Süreci (Checkout) 1
+4. Sayfa Haritası 1
+4.1 Genel (Public) Sayfalar 1
+4.2 Korumalı (Protected) Sayfalar 1
+5. Teknik Gereksinimler 1
+5.1 Next.js Kavramları 1
+5.2 React Kavramları 1
+5.3 TypeScript Kullanımı 1
+5.4 JavaScript Kavramları 1
+6. Ek Özellikler (Opsiyonel) 1
+7. Değerlendirme Sistemi 1
+7.1 Rubrik (Puan Tablosu) — 50 Puan 1
+Teknik Doğruluk ve Kod Kalitesi 1
+7.2 Checklist (Tamamlandı/Tamamlanmadı) — 50 Puan 1
+Sayfa 2
+
+--- PAGE 3 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+1. Proje Genel Bakış
+1.1 Amaç
+Bu mezuniyet projesi, MultiAcademy tarafından düzenlenen React Foundations Web
+Development Certification Course bootcampı boyunca öğrenilen tüm kavram ve teknolojilerin
+kapsamlı bir e-ticaret uygulamasında uygulanmasını amaçlamaktadır. Katılımcılar,
+HTML/CSS temellerinden Next.js ile full-stack geliştirmeye kadar edindikleri bilgileri gerçek
+dünya senaryosunda göstereceklerdir.
+1.2 Proje Tanımı
+Katılımcılar, tam işlevsel bir e-ticaret web uygulaması geliştireceklerdir. Uygulama, kullanıcı
+kimlik doğrulaması, ürün listeleme ve arama, alışveriş sepeti, sipariş süreci ve simüle edilmiş
+ödeme sistemi gibi temel e-ticaret fonksiyonlarını barındıracaktır.
+1.3 Genel Kurallar
+• Proje Türü: Bireysel (her katılımcı kendi projesini bağımsız olarak tamamlar)
+• Teslim Süresi: 3 hafta (bootcampın son haftasında başlar)
+• AI Kullanımı: AI araçları yardımcı olarak kullanılabilir
+1.4 Ön Koşullar (Zorunlu)
+Aşağıdaki koşullardan herhangi biri eksik olan projeler değerlendirmeye
+alınmayacaktır. Bu maddeler puanlama dışıdır ve projenin incelenmesi için ön koşul
+niteliğindedir.
+Zorunlu Teknolojiler
+Kategori Teknoloji Açıklama
+Proje iskeletini oluşturan ana
+Framework Next.js
+framework
+Tüm dosyalar .ts/.tsx olmalıdır, any
+Dil TypeScript
+minimize edilmelidir
+UI Kütüphanesi React Component tabanlı UI geliştirme
+Veritabanı SQLite Tüm uygulama verileri için
+Stillendirme için zorunlu CSS
+CSS Tailwind CSS
+framework
+Deployment Vercel / Netlify / Cloudflare Birinden biri seçilmelidir
+Sayfa 3
+
+--- PAGE 4 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+Zorunlu Teslimatlar
+• GitHub Repository: Proje kodu public olarak GitHub’da paylaşılmış olmalıdır
+• README.md: Kurulum adımları, kullanılan teknolojiler ve proje açıklaması
+içermelidir, demo hesap bilgileri, canlı demo linki
+• Deployment: Vercel, Netlify veya Cloudflare üzerinde canlı olarak erişilebilir olmalıdır
+• Proje Tanıtım Videosu: 3-5 dakikalık ekran kaydı. Video içeriği Bölüm 7.2 Checklist
+maddelerine göre hazırlanmalıdır. README.md kısmına video linki eklenmeli.
+Önemli Notlar
+• Plagiarizm: Başka birinin kodunu kopyalamak tespiti halinde diskalifiye ile sonuçlanır
+• Eksik Deployment: Canlı linki olmayan projeler değerlendirmeye alınmaz
+• AI Kullanımı: AI araçları kullanılabilir ancak videoda tüm kod açıklanabilmelidir.
+Açıklayamama durumunda ilgili bölümden puan kırılır
+Önerilen Proje Yapısı
+Aşağıdaki klasör yapısı önerilmekle birlikte, katılımcılar farklı bir organizasyon da tercih
+edebilirler:
+src/
+• app/ → Next.js App Router sayfa ve layout dosyaları
+• components/ → Yeniden kullanılabilir UI componentleri
+• lib/ → Utility fonksiyonları, veritabanı bağlantısı, yardımcı modüller
+• types/ → TypeScript tip tanımları ve interface dosyaları
+• hooks/ → Custom React hook dosyaları
+• context/ → Context provider dosyaları
+• styles/ → Global stiller ve tema dosyaları
+• public/ → Statik dosyalar (görseller, favicon vb.)
+Sayfa 4
+
+--- PAGE 5 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+2. Veritabanı Tasarımı
+Projede tüm veriler SQLite veritabanında saklanacaktır. Aşağıdaki şema öneri niteliğindedir;
+katılımcılar ihtiyaçlarına göre alan ekleyip çıkarabilirler.
+2.1 Tablolar
+users (Kullanıcılar)
+Alan Tip Açıklama
+id INTEGER PK Otomatik artan benzersiz kimlik (Primary Key)
+name TEXT NOT NULL Kullanıcının adı ve soyadı
+email TEXT UNIQUE Kullanıcının e-posta adresi (benzersiz)
+password_hash TEXT NOT NULL Şifrelenmiş parola (bcrypt veya benzeri)
+role TEXT Kullanıcı rolü: "user" veya "admin" (DEFAULT "user")
+Hesap oluşturma tarihi (DEFAULT
+created_at DATETIME
+CURRENT_TIMESTAMP)
+updated_at DATETIME Son güncelleme tarihi
+categories (Kategoriler)
+Alan Tip Açıklama
+id INTEGER PK Otomatik artan benzersiz kimlik (Primary Key)
+name TEXT NOT NULL Kategori adı (örn. "Elektronik", "Giyim")
+slug TEXT UNIQUE URL dostu isim (örn. "elektronik", "giyim")
+description TEXT Kategori açıklaması (opsiyonel)
+Kayıt oluşturma tarihi (DEFAULT
+created_at DATETIME
+CURRENT_TIMESTAMP)
+products (Ürünler)
+Alan Tip Açıklama
+id INTEGER PK Otomatik artan benzersiz kimlik
+name TEXT NOT NULL Ürün adı
+description TEXT Ürün açıklaması
+price REAL NOT NULL Ürün fiyatı (orn. 299.99)
+stock INTEGER Stok adedi (DEFAULT 0)
+image_url TEXT Ürün görsel URL’i
+category_id INTEGER FK Ait olduğu kategori (REFERENCES categories.id)
+is_featured BOOLEAN Ana sayfada öne çıkan ürün mü? (DEFAULT 0)
+created_at DATETIME Kayıt oluşturma tarihi
+updated_at DATETIME Son güncelleme tarihi
+Sayfa 5
+
+--- PAGE 6 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+Sepet Yönetimi (localStorage)
+Sepet verileri veritabanında değil, tarayıcının localStorage'ında tutulacaktır. Tercih edilen
+state yönetim yöntemi ile yönetilen sepet state'i, her değişiklikte localStorage'a senkronize
+edilmelidir. Sipariş tamamlandığında sepet içeriği order_items tablosuna aktarılır ve
+localStorage temizlenir.
+Örnek localStorage yapısı:
+Key: "cart" → Value: [{ productId: 1, quantity: 2 }, { productId: 5, quantity: 1 }]
+orders (Siparişler)
+Alan Tip Açıklama
+id INTEGER PK Otomatik artan benzersiz kimlik
+user_id INTEGER FK Sipariş veren kullanıcı (REFERENCES users.id)
+order_number TEXT UNIQUE Görünür sipariş numarası (örn. "ORD-2025-0001")
+total_amount REAL NOT NULL Sipariş toplam tutarı
+Sipariş durumu: "pending", "processing", "shipped",
+status TEXT NOT NULL
+"delivered", "cancelled"
+shipping_name TEXT NOT NULL Teslimat alıcı adı
+shipping_address TEXT NOT NULL Teslimat adresi
+shipping_phone TEXT NOT NULL Teslimat telefon numarası
+payment_method TEXT Simüle ödeme yöntemi (örn. "credit_card")
+created_at DATETIME Sipariş oluşturma tarihi
+updated_at DATETIME Son güncelleme tarihi
+order_items (Sipariş Kalemleri)
+Alan Tip Açıklama
+id INTEGER PK Otomatik artan benzersiz kimlik
+order_id INTEGER FK Ait olduğu sipariş (REFERENCES orders.id)
+product_id INTEGER FK Ürün kimliği (REFERENCES products.id)
+quantity INTEGER Sipariş edilen adet
+Sipariş anındaki birim fiyat (ürün fiyatı değişse bile
+unit_price REAL NOT NULL
+korunur)
+Sayfa 6
+
+--- PAGE 7 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+2.3 İlişki Diyagramı
+Tablolar arasındaki ilişkiler aşağıdaki gibidir:
+• categories 1 → N products (Bir kategoride birden fazla ürün olabilir)
+• users 1 → N orders (Bir kullanıcı birden fazla sipariş verebilir)
+• orders 1 → N order_items (Bir siparişte birden fazla ürün olabilir)
+• products 1 → N order_items (Bir ürün birden fazla siparişte geçebilir)
+Not: Sepet verileri localStorage’da yönetildiği için veritabanında ayrı bir sepet tablosu
+bulunmamaktadır.
+2.4 Önemli Notlar
+• user_id alanı: Sipariş tablolarındaki user_id, users tablosundaki id alanına referans
+verir (INTEGER FK)
+• unit_price kaydı: order_items tablosunda fiyat ayrıca saklanır, çünkü ürün fiyatı
+sonradan değişebilir
+• Seed Data: Proje başlangıcında en az 3 kategori ve 10-15 örnek ürün içeren seed
+data hazırlanmalıdır
+• Bonus tablolar: Review bonus özelliği için ek tablo oluşturulabilir (zorunlu değil)
+3. Fonksiyonel Gereksinimler
+Aşağıdaki tüm özellikler zorunludur ve değerlendirme sırasında kontrol edilecektir.
+3.1 Kimlik Doğrulama (Authentication)
+• Kayıt (Register): Ad, soyad, e-posta ve şifre ile yeni hesap oluşturma
+• Giriş (Login): E-posta ve şifre ile oturum açma
+• Oturum Yönetimi: Session tabanlı kullanıcı durumu, korumalı sayfalar için
+middleware
+• Çıkış (Logout): Güvenli oturum sonlandırma
+• Profil Sayfası: Kullanıcının kendi bilgilerini görüntüleyebilmesi
+3.2 Ürün Listeleme ve Arama
+Ürünlerin kullanıcı dostu bir arayüzle listelenmesi ve filtrelenmesi gerekmektedir.
+• Ana Sayfa: Öne çıkan ürünler, kategori navigasyonu
+• Ürün Listesi: Tüm ürünlerin grid/list görünümünde listelenmesi
+• Arama: Ürün adına göre arama fonksiyonu
+• Filtreleme: Kategoriye, fiyat aralığına veya diğer özelliklere göre filtreleme
+• Sıralama: Fiyata, tarihe veya popülerliğe göre sıralama
+• Ürün Detay Sayfası: Görseller, açıklama, fiyat, stok durumu ve sepete ekleme
+butonu
+Sayfa 7
+
+--- PAGE 8 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+3.3 Sepet Yönetimi (Shopping Cart)
+Context API veya tercih edilen state yönetim aracı ile global sepet yönetimi sağlanmalıdır.
+• Sepete Ekleme: Ürün detay sayfasından veya listeden sepete ekleme
+• Miktar Güncelleme: Sepetteki ürün miktarını artırma/azaltma
+• Ürün Kaldırma: Sepetten ürün silme
+• Sepet Özeti: Toplam ürün sayısı, ara toplam ve genel toplam gösterimi
+• Sepet Kalıcılığı: Sayfa yenilendiğinde sepet içeriğinin korunması (localStorage ile)
+3.4 Sipariş Süreci (Checkout)
+Kullanıcının sepetteki ürünleri siparişe dönüştürebileceği bir akış uygulanmalıdır.
+• Teslimat Bilgileri: Ad, adres, telefon gibi teslimat bilgilerini toplayan form
+• Sipariş Özeti: Ödeme öncesi sepet içeriğinin ve toplam tutarın gösterilmesi
+• Simüle Ödeme: Mock ödeme formu (kart numarası, son kullanma tarihi, CVV —
+gerçek işlem yapılmaz)
+• Sipariş Onayı: Başarılı sipariş sonrası onay sayfası ve sipariş numarası
+• Sipariş Geçmişi: Kullanıcının geçmiş siparişlerini görüntüleyebilmesi
+4. Sayfa Haritası
+Aşağıdaki tablo, uygulamada bulunması gereken minimum sayfa ve route yapısını
+göstermektedir.
+4.1 Genel (Public) Sayfalar
+Route Sayfa Açıklama
+Öne çıkan ürünler, kategoriler, hero
+/ Ana Sayfa
+section
+/products Ürün Listesi Tüm ürünler, arama ve filtreleme
+/products/[id] Ürün Detay Ürün bilgileri, sepete ekleme
+/login Giriş Kullanıcı giriş formu
+/register Kayıt Yeni kullanıcı kayıt formu
+4.2 Korumalı (Protected) Sayfalar
+Bu sayfalara sadece oturum açmış kullanıcılar erişebilir. Middleware ile koruma
+sağlanmalıdır.
+Route Sayfa Açıklama
+/cart Sepet Sepet içeriği ve toplam
+/checkout Sipariş Teslimat bilgileri ve ödeme
+/orders Siparişlerim Kullanıcı sipariş geçmişi
+/orders/[id] Sipariş Detay Sipariş detayları ve durum takibi
+/profile Profil Kullanıcı bilgileri
+Sayfa 8
+
+--- PAGE 9 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+5. Teknik Gereksinimler
+Bu bölüm, müfredatta işlenen ve projede uygulanması beklenen teknik kavramları
+içermektedir.
+5.1 Next.js Kavramları
+• App Router: File-based routing, nested layouts, route groups
+• Server Components: Varsayılan olarak server component kullanımı, veri çekme
+• Client Components: "use client" direktifi ile interaktif componentler
+• Server Actions: "use server" ile form işlemleri ve mutasyonlar
+• Dynamic Routes: [id] ve [slug] parametreleri ile dinamik sayfalar
+• Loading/Error States: loading.tsx, error.tsx ve not-found.tsx dosyaları
+• Middleware: Route koruma ve yönlendirme
+• Route Handlers: API endpoint’leri için route.ts kullanımı
+5.2 React Kavramları
+• Hooks: useState, useEffect, useContext, useReducer, useMemo, useCallback,
+useOptimistic
+• Custom Hooks: En az bir custom hook oluşturulmalıdır (örn. useCart, useAuth,
+useDebounce)
+• Context API: Global state yönetimi için en az bir context oluşturulmalıdır
+• Conditional Rendering: Duruma göre farklı UI gösterimi
+• Liste Rendering: Key prop ile doğru liste renderlama
+• Performance: React.memo, lazy loading gibi optimizasyon teknikleri
+5.3 TypeScript Kullanımı
+• Tip Güvenliği: Tüm componentler, fonksiyonlar ve API yanıtları tip tanımlı olmalıdır
+• Interface/Type: Product, User, Order, CartItem gibi modeller için ayrı tip dosyaları
+• Generic Kullanımı: Uygun yerlerde generic tipler kullanılmalıdır
+• any Yasak: 'any' tipi mümkün olduğunca kullanılmamalı, kaçınılmaz durumlarda
+yorum ile açıklanmalıdır
+5.4 JavaScript Kavramları
+• Array methods (map, filter, reduce, find, some, every) etkin kullanımı
+• Destructuring (object ve array)
+• Spread/rest operators
+• Async/await ile asenkron işlemler
+• Error handling (try/catch)
+• Optional chaining (?.) ve nullish coalescing (??)
+Sayfa 9
+
+--- PAGE 10 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+6. Ek Özellikler (Opsiyonel)
+Aşağıdaki özellikler zorunlu değildir ve puanlamaya dahil edilmez. Ancak kendinizi
+geliştirmek, portföyünüzü güçlendirmek ve gerçek dünya projelerine daha yakın bir deneyim
+yaşamak istiyorsanız bu özellikleri projenize ekleyebilirsiniz.
+# Özellik Açıklama
+Mobile-first yaklaşım ile tüm sayfalarda mobil, tablet ve desktop
+1 Responsive Tasarım
+uyumu sağlayın
+Tema değiştirme butonu ekleyin, kullanıcı tercihini saklayın ve
+2 Dark Mode
+tüm sayfalarda tutarlı tema uygulayın
+Kullanıcıların ürünlere yorum ve puan (1-5 yıldız) bırakabileceği
+3 Ürün Yorumları
+bir sistem kurun
+En az 2 dil desteği (TR/EN) ekleyin, dil değiştirme mekanizması
+4 Çoklu Dil (i18n)
+ve tüm sayfalarda çeviri yapın
+Bu özellikler sizi farklı kılacak ve iş başvurularında portföyünüzde dikkat çekecektir.
+Denemekten çekinmeyin!
+Sayfa 10
+
+--- PAGE 11 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+7. Değerlendirme Sistemi
+Projeler iki farklı yöntemle değerlendirilecektir. Her yöntemin ağırlığı aşağıda belirtilmiştir.
+Değerlendirme Yöntemi Ağırlık Maks. Puan
+Rubrik (Puan Tablosu) 50% 50
+Checklist (Tamamlandı/Tamamlanmadı) 50% 50
+Toplam 100% 100
+7.1 Rubrik (Puan Tablosu) — 50 Puan
+7 kriter, her biri 0–3 puan (ham maks. 21 puan). Normalize formül: (Ham Puan / 21) × 50
+Teknik Doğruluk ve Kod Kalitesi
+Eğitmenler, hem canlı uygulamayı hem de GitHub reposundaki kodu inceleyerek aşağıdaki
+kriterlere göre değerlendirecektir.
+Kriter Yetersiz (0) Gelişmeli (1) İyi (2) Mükemmel (3)
+Tam tip
+any yaygın, tip Temel tipler var, Çoğu yerde tipli, güvenliği,
+TypeScript Kullanımı
+tanımı yok bazı any nadir any generic ve utility
+type kullanımı
+Server Actions,
+Yanlış kullanım,
+Server/Client caching ve
+Next.js Mimarisi her yerde use Temel ayrım var
+doğru ayrım layout kullanımı
+client
+ideal
+Clean
+Dağınık, tek Temel İyi yapı, architecture,
+Kod Organizasyonu
+dosyada her şey klasörleme var reusable comp. separation of
+concerns
+Custom hooks,
+Prop drilling, Temel context Context +
+State Yönetimi optimized
+dağınık state kullanımı reducer düzgün
+renders
+Kapsamlı hata
+Hata yönetimi Bazı try/catch Error boundaries yönetimi,
+Error Handling
+yok var ve loading kullanıcı
+bilgilendirme
+İsimlendirme Temiz kod,
+Bazı anlamlı Tutarlı format,
+Kod Okunabilirliği kararlı, format yorum satırları,
+isimler anlamlı isimler
+yok okunabilir yapı
+Dev
+Bazı parçalama Küçük, tek Reusable, iyi
+Component Yapısı componentler,
+var sorumluluk soyutlama, DRY
+tekrar eden kod
+Sayfa 11
+
+--- PAGE 12 ---
+MultiAcademy | React Foundations — Mezuniyet Projesi Dokümanı
+7.2 Checklist (Tamamlandı/Tamamlanmadı) — 50 Puan
+20 madde, her biri tamamlandı/tamamlanmadı olarak kontrol edilir. Normalize formül:
+(Tamamlanan / 20) × 50
+Authentication
+Özellik ✓
+Kullanıcı kayıt olabiliyor □
+Kullanıcı giriş yapabiliyor □
+Oturum yönetimi çalışıyor (session) □
+Korumalı sayfalara yetkisiz erişim engelleniyor □
+Kullanıcı çıkış yapabiliyor □
+Ürün ve Arama
+Özellik ✓
+Ürünler listeleniyor □
+Ürün detay sayfası çalışıyor □
+Arama fonksiyonu çalışıyor □
+Filtreleme çalışıyor □
+Sıralama çalışıyor □
+Sepet ve Sipariş
+Özellik ✓
+Sepete ürün eklenebiliyor □
+Sepette miktar güncellenebiliyor □
+Sepetten ürün silinebiliyor □
+Sepet toplamı doğru hesaplanıyor □
+Sepet sayfa yenilemesinde korunuyor □
+Checkout formu çalışıyor □
+Simüle ödeme tamamlanabiliyor □
+Sipariş başarıyla oluşturuluyor □
+Sipariş geçmişi görüntülenebiliyor □
+Başarılar dileriz!
+MultiAcademy — React Foundations Eğitim Ekibi
+Sayfa 12

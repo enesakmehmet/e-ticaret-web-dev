@@ -1,0 +1,1298 @@
+[
+  {
+    "title": "Nike Dunk Low 'Black White'",
+    "price": "2415 ₺",
+    "image_url": "/shoes/shoe-000.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#434344",
+    "id": "shoe-000"
+  },
+  {
+    "title": "Travis Scott x Playstation x Nike Dunk Low",
+    "price": null,
+    "image_url": "/shoes/shoe-001.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#5b5451",
+    "id": "shoe-001"
+  },
+  {
+    "title": "The Powerpuff Girls x Nike Dunk Low Pro SB QS PS 'Bubbles'",
+    "price": "6265 ₺",
+    "image_url": "/shoes/shoe-002.png",
+    "brand": "Jordan",
+    "primary_color": "yellow",
+    "primary_color_hex": "#d3b61b",
+    "id": "shoe-002"
+  },
+  {
+    "title": "Concepts x Nike Dunk Low SB 'Orange Lobster'",
+    "price": "10745 ₺",
+    "image_url": "/shoes/shoe-003.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#ec6f3f",
+    "id": "shoe-003"
+  },
+  {
+    "title": "Undefeated x Nike Dunk Low 'Dunk vs AF1'",
+    "price": "6965 ₺",
+    "image_url": "/shoes/shoe-004.png",
+    "brand": "Nike",
+    "primary_color": "blue",
+    "primary_color_hex": "#2f3c5e",
+    "id": "shoe-004"
+  },
+  {
+    "title": "Nike Dunk Low 'Grey Fog'",
+    "price": "3465 ₺",
+    "image_url": "/shoes/shoe-005.png",
+    "brand": "Adidas",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bcbcbc",
+    "id": "shoe-005"
+  },
+  {
+    "title": "Nike Dunk Low LTD 'Wizard'",
+    "price": "2870 ₺",
+    "image_url": "/shoes/shoe-006.png",
+    "brand": "Jordan",
+    "primary_color": "purple",
+    "primary_color_hex": "#372946",
+    "id": "shoe-006"
+  },
+  {
+    "title": "Stranger Things x Nike Dunk Low 'Phantom'",
+    "price": "8505 ₺",
+    "image_url": "/shoes/shoe-007.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#c4a484",
+    "id": "shoe-007"
+  },
+  {
+    "title": "Nike Dunk Low SE 'Triple Black'",
+    "price": "4060 ₺",
+    "image_url": "/shoes/shoe-008.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#707579",
+    "id": "shoe-008"
+  },
+  {
+    "title": "Ben & Jerry's x Nike Dunk Low SB 'Chunky Dunky'",
+    "price": "41580 ₺",
+    "image_url": "/shoes/shoe-009.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#fbb807",
+    "id": "shoe-009"
+  },
+  {
+    "title": "Cactus Plant Flea Market x Nike Dunk Low 'Swamp Sponge Pack - Psychic Purple'",
+    "price": "7945 ₺",
+    "image_url": "/shoes/shoe-010.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#f4a105",
+    "id": "shoe-010"
+  },
+  {
+    "title": "Nike Dunk Low 'Frankenstein'",
+    "price": "3815 ₺",
+    "image_url": "/shoes/shoe-011.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#5b4f30",
+    "id": "shoe-011"
+  },
+  {
+    "title": "Nike Dunk Low Pro SB 'Freddy Krueger'",
+    "price": "877065 ₺",
+    "image_url": "/shoes/shoe-012.png",
+    "brand": "Nike",
+    "primary_color": "orange",
+    "primary_color_hex": "#dcccae",
+    "id": "shoe-012"
+  },
+  {
+    "title": "League of Legends x Nike Dunk Low",
+    "price": "5565 ₺",
+    "image_url": "/shoes/shoe-013.png",
+    "brand": "Adidas",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#acb8af",
+    "id": "shoe-013"
+  },
+  {
+    "title": "Nike Dunk Low Premium 'Setsubun'",
+    "price": "3430 ₺",
+    "image_url": "/shoes/shoe-014.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#9c8566",
+    "id": "shoe-014"
+  },
+  {
+    "title": "Futura Laboratories x Nike Dunk Low SB 'Bleached Aqua'",
+    "price": "9415 ₺",
+    "image_url": "/shoes/shoe-015.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bcbcc3",
+    "id": "shoe-015"
+  },
+  {
+    "title": "Nike Dunk Low 'Athletic Department - Deep Jungle'",
+    "price": "2310 ₺",
+    "image_url": "/shoes/shoe-016.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#384243",
+    "id": "shoe-016"
+  },
+  {
+    "title": "Nike Dunk Low 'Midnight Navy Smoke Grey'",
+    "price": "3605 ₺",
+    "image_url": "/shoes/shoe-017.png",
+    "brand": "Adidas",
+    "primary_color": "blue",
+    "primary_color_hex": "#31405e",
+    "id": "shoe-017"
+  },
+  {
+    "title": "Nike Dunk Low GS 'Year of the Dragon'",
+    "price": "3465 ₺",
+    "image_url": "/shoes/shoe-018.png",
+    "brand": "Jordan",
+    "primary_color": "red",
+    "primary_color_hex": "#c93d3b",
+    "id": "shoe-018"
+  },
+  {
+    "title": "Nike Dunk Low 'Silver Surfer' 2024",
+    "price": "1365 ₺",
+    "image_url": "/shoes/shoe-019.png",
+    "brand": "New Balance",
+    "primary_color": "gray",
+    "primary_color_hex": "#808388",
+    "id": "shoe-019"
+  },
+  {
+    "title": "Nike Dunk Low 'Year of the Snake'",
+    "price": "5005 ₺",
+    "image_url": "/shoes/shoe-020.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#797d6e",
+    "id": "shoe-020"
+  },
+  {
+    "title": "Nike Dunk Low 'Reverse Panda'",
+    "price": "3815 ₺",
+    "image_url": "/shoes/shoe-021.png",
+    "brand": "Adidas",
+    "primary_color": "gray",
+    "primary_color_hex": "#8a8888",
+    "id": "shoe-021"
+  },
+  {
+    "title": "Off-White x Nike Rubber Dunk TD 'Green Strike'",
+    "price": "5075 ₺",
+    "image_url": "/shoes/shoe-022.png",
+    "brand": "Jordan",
+    "primary_color": "green",
+    "primary_color_hex": "#7ae27e",
+    "id": "shoe-022"
+  },
+  {
+    "title": "Nike Dunk Low Next Nature 'Baroque Brown'",
+    "price": "4830 ₺",
+    "image_url": "/shoes/shoe-023.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#d4ccbb",
+    "id": "shoe-023"
+  },
+  {
+    "title": "The Powerpuff Girls x Nike Dunk Low Pro SB QS 'Buttercup'",
+    "price": "9590 ₺",
+    "image_url": "/shoes/shoe-024.png",
+    "brand": "Nike",
+    "primary_color": "green",
+    "primary_color_hex": "#6fa94b",
+    "id": "shoe-024"
+  },
+  {
+    "title": "Nike Dunk Low ‘What the Duck - University of Oregon Alternate’ PE",
+    "price": "10500 ₺",
+    "image_url": "/shoes/shoe-025.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#3a3c42",
+    "id": "shoe-025"
+  },
+  {
+    "title": "Cactus Plant Flea Market x Nike Dunk Low 'Swamp Sponge Pack - Photo Blue'",
+    "price": "8715 ₺",
+    "image_url": "/shoes/shoe-026.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#0472be",
+    "id": "shoe-026"
+  },
+  {
+    "title": "Verdy x Nike Dunk Low SB 'Visty'",
+    "price": "8365 ₺",
+    "image_url": "/shoes/shoe-027.png",
+    "brand": "New Balance",
+    "primary_color": "green",
+    "primary_color_hex": "#bad1c5",
+    "id": "shoe-027"
+  },
+  {
+    "title": "Nike Dunk Low 'Kentucky' 2025",
+    "price": "3675 ₺",
+    "image_url": "/shoes/shoe-028.png",
+    "brand": "Nike",
+    "primary_color": "blue",
+    "primary_color_hex": "#043182",
+    "id": "shoe-028"
+  },
+  {
+    "title": "Union LA x Nike Dunk Low 'Passport Pack - Argon'",
+    "price": "5775 ₺",
+    "image_url": "/shoes/shoe-029.png",
+    "brand": "Adidas",
+    "primary_color": "blue",
+    "primary_color_hex": "#6e829a",
+    "id": "shoe-029"
+  },
+  {
+    "title": "Nike Dunk Low 'Valerian Blue'",
+    "price": "2765 ₺",
+    "image_url": "/shoes/shoe-030.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#2c3d4c",
+    "id": "shoe-030"
+  },
+  {
+    "title": "Nike Wmns Dunk Low 'Cacao Wow'",
+    "price": "3010 ₺",
+    "image_url": "/shoes/shoe-031.png",
+    "brand": "New Balance",
+    "primary_color": "yellow",
+    "primary_color_hex": "#d4d4bc",
+    "id": "shoe-031"
+  },
+  {
+    "title": "Limosine Skateboards x Nike Dunk Low SB 'Football'",
+    "price": "3045 ₺",
+    "image_url": "/shoes/shoe-032.png",
+    "brand": "Nike",
+    "primary_color": "red",
+    "primary_color_hex": "#371718",
+    "id": "shoe-032"
+  },
+  {
+    "title": "Supreme x Nike Dunk Low SB 'Ocean Fog'",
+    "price": "11060 ₺",
+    "image_url": "/shoes/shoe-033.png",
+    "brand": "Adidas",
+    "primary_color": "blue",
+    "primary_color_hex": "#3c4c58",
+    "id": "shoe-033"
+  },
+  {
+    "title": "Nike Dunk Low SB 'Sandy Bodecker'",
+    "price": "4970 ₺",
+    "image_url": "/shoes/shoe-034.png",
+    "brand": "Jordan",
+    "primary_color": "yellow",
+    "primary_color_hex": "#e6b211",
+    "id": "shoe-034"
+  },
+  {
+    "title": "Jarritos x Nike Dunk Low SB",
+    "price": "14140 ₺",
+    "image_url": "/shoes/shoe-035.png",
+    "brand": "New Balance",
+    "primary_color": "teal",
+    "primary_color_hex": "#1f735d",
+    "id": "shoe-035"
+  },
+  {
+    "title": "Undefeated x Air Jordan 4 Retro 2025",
+    "price": "9170 ₺",
+    "image_url": "/shoes/shoe-036.png",
+    "brand": "Nike",
+    "primary_color": "yellow",
+    "primary_color_hex": "#838367",
+    "id": "shoe-036"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Rare Air - White Lettering'",
+    "price": "6755 ₺",
+    "image_url": "/shoes/shoe-037.png",
+    "brand": "Adidas",
+    "primary_color": "blue",
+    "primary_color_hex": "#19346f",
+    "id": "shoe-037"
+  },
+  {
+    "title": "Wmns Air Jordan 4 Retro TEX 'Worn Blue Denim'",
+    "price": "5355 ₺",
+    "image_url": "/shoes/shoe-038.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#315472",
+    "id": "shoe-038"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Black Cat' 2025",
+    "price": "9695 ₺",
+    "image_url": "/shoes/shoe-039.png",
+    "brand": "New Balance",
+    "primary_color": "black",
+    "primary_color_hex": "#0c040b",
+    "id": "shoe-039"
+  },
+  {
+    "title": "Air Jordan 4 Retro OG 'White Cement' 2025",
+    "price": "8120 ₺",
+    "image_url": "/shoes/shoe-040.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#8a898b",
+    "id": "shoe-040"
+  },
+  {
+    "title": "Nike SB x Air Jordan 4 Retro SP 'Navy'",
+    "price": "5810 ₺",
+    "image_url": "/shoes/shoe-041.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#e3a97b",
+    "id": "shoe-041"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Cave Stone'",
+    "price": "6265 ₺",
+    "image_url": "/shoes/shoe-042.png",
+    "brand": "Jordan",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#4c443f",
+    "id": "shoe-042"
+  },
+  {
+    "title": "Nigel Sylvester x Air Jordan 4 Retro OG SP 'Brick By Brick'",
+    "price": "10640 ₺",
+    "image_url": "/shoes/shoe-043.png",
+    "brand": "New Balance",
+    "primary_color": "red",
+    "primary_color_hex": "#c53f3b",
+    "id": "shoe-043"
+  },
+  {
+    "title": "Jan 17",
+    "price": "8505 ₺",
+    "image_url": "/shoes/shoe-044.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#858483",
+    "id": "shoe-044"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'White Thunder'",
+    "price": "10290 ₺",
+    "image_url": "/shoes/shoe-045.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#414143",
+    "id": "shoe-045"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Bred Reimagined'",
+    "price": "8540 ₺",
+    "image_url": "/shoes/shoe-046.png",
+    "brand": "Jordan",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#b4b3bb",
+    "id": "shoe-046"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Military Blue' 2024",
+    "price": "7490 ₺",
+    "image_url": "/shoes/shoe-047.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bcbebf",
+    "id": "shoe-047"
+  },
+  {
+    "title": "Air Jordan 4 Retro GS 'Black Cat' 2025",
+    "price": "5530 ₺",
+    "image_url": "/shoes/shoe-048.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#444c4d",
+    "id": "shoe-048"
+  },
+  {
+    "title": "A Ma Maniére x Air Jordan 4 Retro 'Dark Mocha'",
+    "price": "9415 ₺",
+    "image_url": "/shoes/shoe-049.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#4c392f",
+    "id": "shoe-049"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Red Thunder'",
+    "price": "14035 ₺",
+    "image_url": "/shoes/shoe-050.png",
+    "brand": "Jordan",
+    "primary_color": "red",
+    "primary_color_hex": "#e2262a",
+    "id": "shoe-050"
+  },
+  {
+    "title": "Nike SB x Air Jordan 4 Retro SP 'Pine Green'",
+    "price": "11165 ₺",
+    "image_url": "/shoes/shoe-051.png",
+    "brand": "New Balance",
+    "primary_color": "teal",
+    "primary_color_hex": "#07845c",
+    "id": "shoe-051"
+  },
+  {
+    "title": "Air Jordan 4 Retro SE 'Wet Cement'",
+    "price": "10430 ₺",
+    "image_url": "/shoes/shoe-052.png",
+    "brand": "Nike",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#b2b3b7",
+    "id": "shoe-052"
+  },
+  {
+    "title": "Air Jordan 4 Retro OG 'Bred' 2019",
+    "price": "13615 ₺",
+    "image_url": "/shoes/shoe-053.png",
+    "brand": "Adidas",
+    "primary_color": "red",
+    "primary_color_hex": "#a95c60",
+    "id": "shoe-053"
+  },
+  {
+    "title": "A Ma Maniére x Wmns Air Jordan 4 Retro 'While You Were Sleeping'",
+    "price": "5425 ₺",
+    "image_url": "/shoes/shoe-054.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#cdb9ac",
+    "id": "shoe-054"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Fear' 2024",
+    "price": "7910 ₺",
+    "image_url": "/shoes/shoe-055.png",
+    "brand": "New Balance",
+    "primary_color": "gray",
+    "primary_color_hex": "#7b7a7a",
+    "id": "shoe-055"
+  },
+  {
+    "title": "Air Jordan 4 Retro OG 'Fire Red' 2020",
+    "price": "10885 ₺",
+    "image_url": "/shoes/shoe-056.png",
+    "brand": "Nike",
+    "primary_color": "red",
+    "primary_color_hex": "#b91817",
+    "id": "shoe-056"
+  },
+  {
+    "title": "Wmns Air Jordan 4 Retro 'Orchid'",
+    "price": "10745 ₺",
+    "image_url": "/shoes/shoe-057.png",
+    "brand": "Adidas",
+    "primary_color": "pink",
+    "primary_color_hex": "#cca5bc",
+    "id": "shoe-057"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Thunder' 2023",
+    "price": "10185 ₺",
+    "image_url": "/shoes/shoe-058.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#494233",
+    "id": "shoe-058"
+  },
+  {
+    "title": "Air Jordan 4 Retro SE 'Black Canvas'",
+    "price": "11655 ₺",
+    "image_url": "/shoes/shoe-059.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bdc1c4",
+    "id": "shoe-059"
+  },
+  {
+    "title": "Off-White x Wmns Air Jordan 4 Retro SP 'Sail'",
+    "price": "26005 ₺",
+    "image_url": "/shoes/shoe-060.png",
+    "brand": "Nike",
+    "primary_color": "orange",
+    "primary_color_hex": "#ccc4b4",
+    "id": "shoe-060"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Toro Bravo' 2026",
+    "price": null,
+    "image_url": "/shoes/shoe-061.png",
+    "brand": "Adidas",
+    "primary_color": "red",
+    "primary_color_hex": "#a41d2b",
+    "id": "shoe-061"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'University Blue'",
+    "price": "13650 ₺",
+    "image_url": "/shoes/shoe-062.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#557fa9",
+    "id": "shoe-062"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Military Black'",
+    "price": "11725 ₺",
+    "image_url": "/shoes/shoe-063.png",
+    "brand": "New Balance",
+    "primary_color": "black",
+    "primary_color_hex": "#2e2c2c",
+    "id": "shoe-063"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Lightning' 2021",
+    "price": "8750 ₺",
+    "image_url": "/shoes/shoe-064.png",
+    "brand": "Nike",
+    "primary_color": "yellow",
+    "primary_color_hex": "#e0b92e",
+    "id": "shoe-064"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Red Cement'",
+    "price": "7630 ₺",
+    "image_url": "/shoes/shoe-065.png",
+    "brand": "Adidas",
+    "primary_color": "red",
+    "primary_color_hex": "#af2530",
+    "id": "shoe-065"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Midnight Navy'",
+    "price": "9835 ₺",
+    "image_url": "/shoes/shoe-066.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#2e354c",
+    "id": "shoe-066"
+  },
+  {
+    "title": "Air Jordan 4 Retro '25th Silver Anniversary'",
+    "price": "4725 ₺",
+    "image_url": "/shoes/shoe-067.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#c5c2ca",
+    "id": "shoe-067"
+  },
+  {
+    "title": "A Ma Maniére x Air Jordan 4 Retro 'Violet Ore'",
+    "price": "6930 ₺",
+    "image_url": "/shoes/shoe-068.png",
+    "brand": "Nike",
+    "primary_color": "yellow",
+    "primary_color_hex": "#dbd1b3",
+    "id": "shoe-068"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'White Oreo'",
+    "price": "13370 ₺",
+    "image_url": "/shoes/shoe-069.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#494948",
+    "id": "shoe-069"
+  },
+  {
+    "title": "Air Jordan 4 Retro 'Taupe Haze'",
+    "price": "12320 ₺",
+    "image_url": "/shoes/shoe-070.png",
+    "brand": "Jordan",
+    "primary_color": "gray",
+    "primary_color_hex": "#83776e",
+    "id": "shoe-070"
+  },
+  {
+    "title": "Air Jordan 4 Retro OG GS 'White Cement' 2025",
+    "price": "5215 ₺",
+    "image_url": "/shoes/shoe-071.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#c8cccc",
+    "id": "shoe-071"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Rain Cloud'",
+    "price": "4130 ₺",
+    "image_url": "/shoes/shoe-072.png",
+    "brand": "Nike",
+    "primary_color": "orange",
+    "primary_color_hex": "#c7baa4",
+    "id": "shoe-072"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Phantom'",
+    "price": "4830 ₺",
+    "image_url": "/shoes/shoe-073.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#434648",
+    "id": "shoe-073"
+  },
+  {
+    "title": "New Balance 9060 'Black Cat'",
+    "price": "5775 ₺",
+    "image_url": "/shoes/shoe-074.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#343c44",
+    "id": "shoe-074"
+  },
+  {
+    "title": "New Balance 1906R 'Silver Metallic Black'",
+    "price": "3675 ₺",
+    "image_url": "/shoes/shoe-075.png",
+    "brand": "New Balance",
+    "primary_color": "gray",
+    "primary_color_hex": "#7b7978",
+    "id": "shoe-075"
+  },
+  {
+    "title": "New Balance 740v2 'Black Silver Metallic'",
+    "price": "3465 ₺",
+    "image_url": "/shoes/shoe-076.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#3b3c44",
+    "id": "shoe-076"
+  },
+  {
+    "title": "New Balance 9060 'Suede Pack - Sea Salt'",
+    "price": "5075 ₺",
+    "image_url": "/shoes/shoe-077.png",
+    "brand": "Adidas",
+    "primary_color": "gray",
+    "primary_color_hex": "#82807b",
+    "id": "shoe-077"
+  },
+  {
+    "title": "New Balance 1906R 'Silver Metallic Cream'",
+    "price": "2625 ₺",
+    "image_url": "/shoes/shoe-078.png",
+    "brand": "Jordan",
+    "primary_color": "gray",
+    "primary_color_hex": "#8a8983",
+    "id": "shoe-078"
+  },
+  {
+    "title": "New Balance 1906A 'Black'",
+    "price": "6440 ₺",
+    "image_url": "/shoes/shoe-079.png",
+    "brand": "New Balance",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#424243",
+    "id": "shoe-079"
+  },
+  {
+    "title": "New Balance 850 'Grey'",
+    "price": "3465 ₺",
+    "image_url": "/shoes/shoe-080.png",
+    "brand": "Nike",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bdbaba",
+    "id": "shoe-080"
+  },
+  {
+    "title": "New Balance 9060 'Triple Black Suede'",
+    "price": "4375 ₺",
+    "image_url": "/shoes/shoe-081.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#3e3f3f",
+    "id": "shoe-081"
+  },
+  {
+    "title": "New Balance 530 'White Natural Indigo'",
+    "price": "2940 ₺",
+    "image_url": "/shoes/shoe-082.png",
+    "brand": "Jordan",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#403e41",
+    "id": "shoe-082"
+  },
+  {
+    "title": "New Balance 1906R 'Metallic Silver Metallic Gold'",
+    "price": "2765 ₺",
+    "image_url": "/shoes/shoe-083.png",
+    "brand": "New Balance",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bcbcbe",
+    "id": "shoe-083"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Sea Salt'",
+    "price": "4375 ₺",
+    "image_url": "/shoes/shoe-084.png",
+    "brand": "Nike",
+    "primary_color": "orange",
+    "primary_color_hex": "#c2baa7",
+    "id": "shoe-084"
+  },
+  {
+    "title": "New Balance 1906R 'Pink Taffy'",
+    "price": "2765 ₺",
+    "image_url": "/shoes/shoe-085.png",
+    "brand": "Adidas",
+    "primary_color": "red",
+    "primary_color_hex": "#925e6a",
+    "id": "shoe-085"
+  },
+  {
+    "title": "New Balance 9060 'Black Castlerock'",
+    "price": "4130 ₺",
+    "image_url": "/shoes/shoe-086.png",
+    "brand": "Jordan",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#434444",
+    "id": "shoe-086"
+  },
+  {
+    "title": "New Balance 1000 'Black Cat'",
+    "price": "4655 ₺",
+    "image_url": "/shoes/shoe-087.png",
+    "brand": "New Balance",
+    "primary_color": "black",
+    "primary_color_hex": "#04040c",
+    "id": "shoe-087"
+  },
+  {
+    "title": "New Balance 9060 'Arctic Grey'",
+    "price": "5495 ₺",
+    "image_url": "/shoes/shoe-088.png",
+    "brand": "Nike",
+    "primary_color": "blue",
+    "primary_color_hex": "#747e91",
+    "id": "shoe-088"
+  },
+  {
+    "title": "New Balance 1906R 'Silver Metallic Deep Ocean'",
+    "price": "2065 ₺",
+    "image_url": "/shoes/shoe-089.png",
+    "brand": "Adidas",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#c1c7c8",
+    "id": "shoe-089"
+  },
+  {
+    "title": "New Balance BAPE x 2002R 'Apes Together Strong - Black Camo'",
+    "price": "15085 ₺",
+    "image_url": "/shoes/shoe-090.png",
+    "brand": "Jordan",
+    "primary_color": "gray",
+    "primary_color_hex": "#7d7c74",
+    "id": "shoe-090"
+  },
+  {
+    "title": "New Balance 2002R 'Black Cat'",
+    "price": "4690 ₺",
+    "image_url": "/shoes/shoe-091.png",
+    "brand": "New Balance",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#414141",
+    "id": "shoe-091"
+  },
+  {
+    "title": "New Balance 1906L 'Silver Shadow Grey'",
+    "price": "4760 ₺",
+    "image_url": "/shoes/shoe-092.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#868280",
+    "id": "shoe-092"
+  },
+  {
+    "title": "New Balance 1906D 'Protection Pack - Triple Black'",
+    "price": "4165 ₺",
+    "image_url": "/shoes/shoe-093.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#3c3c3c",
+    "id": "shoe-093"
+  },
+  {
+    "title": "New Balance 1000 'Mallard Green Sea Salt'",
+    "price": "4655 ₺",
+    "image_url": "/shoes/shoe-094.png",
+    "brand": "Jordan",
+    "primary_color": "gray",
+    "primary_color_hex": "#7c8e7c",
+    "id": "shoe-094"
+  },
+  {
+    "title": "New Balance 550 'White Timberwolf'",
+    "price": "2555 ₺",
+    "image_url": "/shoes/shoe-095.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#ccbda2",
+    "id": "shoe-095"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Lunar New Year'",
+    "price": "6160 ₺",
+    "image_url": "/shoes/shoe-096.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#888382",
+    "id": "shoe-096"
+  },
+  {
+    "title": "New Balance 2002R 'Black Gunmetal'",
+    "price": "3815 ₺",
+    "image_url": "/shoes/shoe-097.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#434040",
+    "id": "shoe-097"
+  },
+  {
+    "title": "New Balance 530 'Raincloud'",
+    "price": "3325 ₺",
+    "image_url": "/shoes/shoe-098.png",
+    "brand": "Jordan",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bbbcba",
+    "id": "shoe-098"
+  },
+  {
+    "title": "New Balance 1906A 'Black Dragon Berry'",
+    "price": "4655 ₺",
+    "image_url": "/shoes/shoe-099.png",
+    "brand": "New Balance",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#493c43",
+    "id": "shoe-099"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Eclipse'",
+    "price": "3465 ₺",
+    "image_url": "/shoes/shoe-100.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#8f8c84",
+    "id": "shoe-100"
+  },
+  {
+    "title": "New Balance 1906A 'Silver Gold Metallic'",
+    "price": "5215 ₺",
+    "image_url": "/shoes/shoe-101.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#cdc2b1",
+    "id": "shoe-101"
+  },
+  {
+    "title": "New Balance 1906D 'Protection Pack - White Turtledove'",
+    "price": "6405 ₺",
+    "image_url": "/shoes/shoe-102.png",
+    "brand": "Jordan",
+    "primary_color": "yellow",
+    "primary_color_hex": "#c7c4b4",
+    "id": "shoe-102"
+  },
+  {
+    "title": "New Balance 2002R 'Protection Pack - Brown' size? Exclusive",
+    "price": "7245 ₺",
+    "image_url": "/shoes/shoe-103.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#957b6a",
+    "id": "shoe-103"
+  },
+  {
+    "title": "New Balance 9060 'Quartz Grey'",
+    "price": "4865 ₺",
+    "image_url": "/shoes/shoe-104.png",
+    "brand": "Nike",
+    "primary_color": "yellow",
+    "primary_color_hex": "#dcd7c6",
+    "id": "shoe-104"
+  },
+  {
+    "title": "New Balance 1906R 'Black Silver'",
+    "price": "6055 ₺",
+    "image_url": "/shoes/shoe-105.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#3c4142",
+    "id": "shoe-105"
+  },
+  {
+    "title": "New Balance 740v2 'White Navy Shadow Grey'",
+    "price": "3570 ₺",
+    "image_url": "/shoes/shoe-106.png",
+    "brand": "Jordan",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#c1c1c1",
+    "id": "shoe-106"
+  },
+  {
+    "title": "New Balance 9060 'Pink Overdye' ASOS Exclusive",
+    "price": "6895 ₺",
+    "image_url": "/shoes/shoe-107.png",
+    "brand": "New Balance",
+    "primary_color": "pink",
+    "primary_color_hex": "#d19eb3",
+    "id": "shoe-107"
+  },
+  {
+    "title": "New Balance 990v4 Made in USA 'Grey Silver'",
+    "price": "4305 ₺",
+    "image_url": "/shoes/shoe-108.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#807f80",
+    "id": "shoe-108"
+  },
+  {
+    "title": "New Balance 990v6 Made in USA 'Castlerock'",
+    "price": "4795 ₺",
+    "image_url": "/shoes/shoe-109.png",
+    "brand": "Adidas",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#bcbcbd",
+    "id": "shoe-109"
+  },
+  {
+    "title": "New Balance 990v3 Made in USA 'Grey'",
+    "price": "7280 ₺",
+    "image_url": "/shoes/shoe-110.png",
+    "brand": "Jordan",
+    "primary_color": "gray",
+    "primary_color_hex": "#828485",
+    "id": "shoe-110"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v4 Made in USA 'Arctic Grey Black'",
+    "price": "6265 ₺",
+    "image_url": "/shoes/shoe-111.png",
+    "brand": "New Balance",
+    "primary_color": "blue",
+    "primary_color_hex": "#738290",
+    "id": "shoe-111"
+  },
+  {
+    "title": "New Balance 990v3 Made In USA 'Black'",
+    "price": "5565 ₺",
+    "image_url": "/shoes/shoe-112.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#444343",
+    "id": "shoe-112"
+  },
+  {
+    "title": "Bodega x New Balance 990v3 Made In USA 'Anniversary'",
+    "price": "6125 ₺",
+    "image_url": "/shoes/shoe-113.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#cbc5bd",
+    "id": "shoe-113"
+  },
+  {
+    "title": "Action Bronson x New Balance 990v6 Made in USA 'Amazõnia'",
+    "price": "6125 ₺",
+    "image_url": "/shoes/shoe-114.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#bcb4a5",
+    "id": "shoe-114"
+  },
+  {
+    "title": "Action Bronson x New Balance 990v6 Made in USA 'Lapis Lazuli'",
+    "price": "6055 ₺",
+    "image_url": "/shoes/shoe-115.png",
+    "brand": "New Balance",
+    "primary_color": "blue",
+    "primary_color_hex": "#687eb2",
+    "id": "shoe-115"
+  },
+  {
+    "title": "New Balance 990v4 Made In USA 'Red Label - Grey'",
+    "price": "9380 ₺",
+    "image_url": "/shoes/shoe-116.png",
+    "brand": "Nike",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#b6b8bc",
+    "id": "shoe-116"
+  },
+  {
+    "title": "New Balance 990v4 Made in USA 'Black Silver' 2023",
+    "price": "5390 ₺",
+    "image_url": "/shoes/shoe-117.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#474646",
+    "id": "shoe-117"
+  },
+  {
+    "title": "Action Bronson x New Balance 990v6 Made in USA 'Untitled'",
+    "price": "8015 ₺",
+    "image_url": "/shoes/shoe-118.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#d4c49e",
+    "id": "shoe-118"
+  },
+  {
+    "title": "New Balance Teddy Santis x 990v4 Made in USA 'Grey Black'",
+    "price": "4620 ₺",
+    "image_url": "/shoes/shoe-119.png",
+    "brand": "New Balance",
+    "primary_color": "gray",
+    "primary_color_hex": "#7f7c7a",
+    "id": "shoe-119"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v3 Made in USA 'Tan Orange'",
+    "price": "5810 ₺",
+    "image_url": "/shoes/shoe-120.png",
+    "brand": "Nike",
+    "primary_color": "orange",
+    "primary_color_hex": "#9f855e",
+    "id": "shoe-120"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v4 Made in USA 'Plum Purple'",
+    "price": "5145 ₺",
+    "image_url": "/shoes/shoe-121.png",
+    "brand": "Adidas",
+    "primary_color": "purple",
+    "primary_color_hex": "#3c2c5c",
+    "id": "shoe-121"
+  },
+  {
+    "title": "New Balance 990v6 Made in USA 'Workwear'",
+    "price": "2415 ₺",
+    "image_url": "/shoes/shoe-122.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#b98651",
+    "id": "shoe-122"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v3 Made in USA 'Green Gold'",
+    "price": "6405 ₺",
+    "image_url": "/shoes/shoe-123.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#cfc4a4",
+    "id": "shoe-123"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Reflection Marblehead'",
+    "price": "5215 ₺",
+    "image_url": "/shoes/shoe-124.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#787573",
+    "id": "shoe-124"
+  },
+  {
+    "title": "Action Bronson x New Balance 990v6 Made in USA 'Baklava'",
+    "price": "7525 ₺",
+    "image_url": "/shoes/shoe-125.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#d0b587",
+    "id": "shoe-125"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Paris'",
+    "price": "25305 ₺",
+    "image_url": "/shoes/shoe-126.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#544639",
+    "id": "shoe-126"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Community Pack - Red'",
+    "price": "3430 ₺",
+    "image_url": "/shoes/shoe-127.png",
+    "brand": "New Balance",
+    "primary_color": "red",
+    "primary_color_hex": "#dd817f",
+    "id": "shoe-127"
+  },
+  {
+    "title": "JJJJound x New Balance 990v3 Made in USA 'Olive'",
+    "price": "10780 ₺",
+    "image_url": "/shoes/shoe-128.png",
+    "brand": "Nike",
+    "primary_color": "green",
+    "primary_color_hex": "#8c9370",
+    "id": "shoe-128"
+  },
+  {
+    "title": "New Balance 990v6 Made in USA 'Triple Black'",
+    "price": "5215 ₺",
+    "image_url": "/shoes/shoe-129.png",
+    "brand": "Adidas",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#34343c",
+    "id": "shoe-129"
+  },
+  {
+    "title": "JJJJound x New Balance 990v3 Made in USA 'Brown'",
+    "price": "9940 ₺",
+    "image_url": "/shoes/shoe-130.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#544430",
+    "id": "shoe-130"
+  },
+  {
+    "title": "New Balance 990v6 Made in USA 'Salmon'",
+    "price": "2695 ₺",
+    "image_url": "/shoes/shoe-131.png",
+    "brand": "New Balance",
+    "primary_color": "red",
+    "primary_color_hex": "#f88984",
+    "id": "shoe-131"
+  },
+  {
+    "title": "New Balance 990v3 Made In USA 'Navy'",
+    "price": "4865 ₺",
+    "image_url": "/shoes/shoe-132.png",
+    "brand": "Nike",
+    "primary_color": "gray",
+    "primary_color_hex": "#767a79",
+    "id": "shoe-132"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Light Mushroom Moonrock'",
+    "price": "5390 ₺",
+    "image_url": "/shoes/shoe-133.png",
+    "brand": "Adidas",
+    "primary_color": "orange",
+    "primary_color_hex": "#99826b",
+    "id": "shoe-133"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Community Pack - Navy'",
+    "price": "6090 ₺",
+    "image_url": "/shoes/shoe-134.png",
+    "brand": "Jordan",
+    "primary_color": "blue",
+    "primary_color_hex": "#5c6f88",
+    "id": "shoe-134"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v3 Made in USA 'Raw Amethyst'",
+    "price": "9625 ₺",
+    "image_url": "/shoes/shoe-135.png",
+    "brand": "New Balance",
+    "primary_color": "purple",
+    "primary_color_hex": "#bcacc4",
+    "id": "shoe-135"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v3 Made in USA 'Green Purple'",
+    "price": "5460 ₺",
+    "image_url": "/shoes/shoe-136.png",
+    "brand": "Nike",
+    "primary_color": "red",
+    "primary_color_hex": "#5e4a44",
+    "id": "shoe-136"
+  },
+  {
+    "title": "New Balance Teddy Santis x 990v3 Made in USA 'Scarlet Marblehead'",
+    "price": "8190 ₺",
+    "image_url": "/shoes/shoe-137.png",
+    "brand": "Adidas",
+    "primary_color": "gray",
+    "primary_color_hex": "#7c7978",
+    "id": "shoe-137"
+  },
+  {
+    "title": "New Balance 990v5 Made in USA 'Castlerock'",
+    "price": "6720 ₺",
+    "image_url": "/shoes/shoe-138.png",
+    "brand": "Jordan",
+    "primary_color": "light_gray",
+    "primary_color_hex": "#c0bfbe",
+    "id": "shoe-138"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v3 Made in USA 'Black Tan'",
+    "price": "4725 ₺",
+    "image_url": "/shoes/shoe-139.png",
+    "brand": "New Balance",
+    "primary_color": "orange",
+    "primary_color_hex": "#524c3c",
+    "id": "shoe-139"
+  },
+  {
+    "title": "Kith x New Balance 990v3 Made in USA 'Steel Blue'",
+    "price": "8365 ₺",
+    "image_url": "/shoes/shoe-140.png",
+    "brand": "Nike",
+    "primary_color": "dark_gray",
+    "primary_color_hex": "#443c3c",
+    "id": "shoe-140"
+  },
+  {
+    "title": "New Balance 990v4 Made in USA 'Castlerock'",
+    "price": "7805 ₺",
+    "image_url": "/shoes/shoe-141.png",
+    "brand": "Adidas",
+    "primary_color": "gray",
+    "primary_color_hex": "#808081",
+    "id": "shoe-141"
+  },
+  {
+    "title": "New Balance Aimé Leon Dore x 990v4 Made in USA 'True Camo'",
+    "price": "8155 ₺",
+    "image_url": "/shoes/shoe-142.png",
+    "brand": "Jordan",
+    "primary_color": "orange",
+    "primary_color_hex": "#50452c",
+    "id": "shoe-142"
+  },
+  {
+    "title": "Teddy Santis x New Balance 990v6 Made in USA 'Community Pack - Mint'",
+    "price": "4130 ₺",
+    "image_url": "/shoes/shoe-143.png",
+    "brand": "New Balance",
+    "primary_color": "teal",
+    "primary_color_hex": "#245254",
+    "id": "shoe-143"
+  }
+]
