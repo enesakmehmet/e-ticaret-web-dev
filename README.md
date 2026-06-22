@@ -4,6 +4,10 @@ STEP SPACE, React Foundations eğitimi kapsamında hazırlanmış, modern web te
 
 Platformda 3D ayakkabı modeli inceleme, ürün filtreleme, dinamik sepet ve favori yönetimi, uluslararasılaştırma (i18n), kullanıcı yetkilendirme ve ödeme simülasyonu gibi gerçek bir e-ticaret sitesinde olması gereken kapsamlı özellikler bulunmaktadır.
 
+## 🎥 Proje Tanıtım Videosu
+Bölüm 7.2 Checklist maddelerine göre hazırlanan 3-5 dakikalık proje tanıtım ve kullanım videosunu aşağıdan izleyebilirsiniz:
+*   [Proje Tanıtım Videosunu İzle](./proje-tanitim-videosu.mp4)
+
 ## 🚀 Canlı Demo
 Canlı olarak projeyi test etmek için bağlantıya tıklayabilirsiniz: [STEP SPACE Canlı Demo](https://e-ticaret-web-dev-production.up.railway.app)
 

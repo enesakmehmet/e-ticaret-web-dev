@@ -18,6 +18,7 @@ export default function RegisterPage() {
     password: "",
   });
   const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
@@ -28,6 +29,7 @@ export default function RegisterPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+    setSuccessMessage("");
     setLoading(true);
 
     try {
@@ -43,7 +45,10 @@ export default function RegisterPage() {
         throw new Error(data.message || "Kayit islemi basarisiz.");
       }
 
-      router.push("/login?registered=true");
+      setSuccessMessage("Kayıt işlemi başarıyla tamamlandı! Giriş sayfasına yönlendiriliyorsunuz...");
+      setTimeout(() => {
+        router.push("/login?registered=true");
+      }, 2000);
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Kayit yapilirken bir hata olustu.");
     } finally {
@@ -61,6 +66,7 @@ export default function RegisterPage() {
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             {error && <div className="rounded-md bg-destructive/15 p-3 text-sm text-destructive">{error}</div>}
+            {successMessage && <div className="rounded-md bg-green-500/15 p-3 text-sm text-green-600 font-medium">{successMessage}</div>}
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="name">Ad</Label>
