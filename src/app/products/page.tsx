@@ -97,7 +97,7 @@ export default async function ProductsPage(props: {
             <select
               name="brand"
               defaultValue={brand || ""}
-              className="h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+              className="h-10 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
             >
               <option value="">Tüm Markalar</option>
               {uniqueBrands.map((b) => (
@@ -107,7 +107,7 @@ export default async function ProductsPage(props: {
             <select
               name="price"
               defaultValue={priceRange || ""}
-              className="h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+              className="h-10 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
             >
               {PRICE_FILTERS.map((filter) => (
                 <option key={filter.value || "all"} value={filter.value}>
@@ -118,13 +118,13 @@ export default async function ProductsPage(props: {
             <select
               name="sort"
               defaultValue={sort || ""}
-              className="h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+              className="h-10 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
             >
               <option value="">En Yeniler</option>
               <option value="price_asc">Fiyat (Dusukten Yuksege)</option>
               <option value="price_desc">Fiyat (Yuksekten Dusuge)</option>
             </select>
-            <button type="submit" className="h-9 rounded-md bg-primary px-3 text-sm text-primary-foreground">
+            <button type="submit" className="h-10 rounded-md bg-primary px-3 text-sm text-primary-foreground">
               Uygula
             </button>
           </form>
@@ -132,7 +132,7 @@ export default async function ProductsPage(props: {
       </div>
 
       <div className="flex flex-col gap-8 md:flex-row">
-        <aside className="w-full shrink-0 md:w-64">
+        <aside className="hidden md:block w-64 shrink-0">
           <div className="sticky top-24 space-y-6">
             <div>
               <h3 className="mb-4 text-lg font-semibold">Kategoriler</h3>

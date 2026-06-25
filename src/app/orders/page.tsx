@@ -34,7 +34,7 @@ export default async function OrdersPage() {
     <div className="container mx-auto px-4 py-12 max-w-6xl">
       <h1 className="text-3xl font-bold tracking-tight uppercase mb-8">Hesabım</h1>
 
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-8">
         {/* Sidebar */}
         <aside className="w-full md:w-64 shrink-0">
           <div className="bg-secondary/30 rounded-3xl p-6 sticky top-24">
@@ -48,7 +48,7 @@ export default async function OrdersPage() {
               </div>
             </div>
 
-            <nav className="space-y-2">
+            <nav className="flex md:flex-col gap-2 overflow-x-auto">
               <Link href="/profile" className="flex items-center justify-between p-3 rounded-xl hover:bg-secondary/50 transition-colors text-muted-foreground hover:text-foreground">
                 <span className="flex items-center gap-2"><User className="h-4 w-4" /> Profilim</span>
               </Link>

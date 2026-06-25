@@ -29,7 +29,7 @@ export default function CartPage() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold tracking-tight uppercase mb-8">{dict.cart.title} ({itemCount})</h1>
+      <h1 className="text-2xl md:text-3xl font-bold tracking-tight uppercase mb-8">{dict.cart.title} ({itemCount})</h1>
 
       <div className="flex flex-col lg:flex-row gap-12">
         {/* Cart Items */}
@@ -51,7 +51,7 @@ export default function CartPage() {
                     <h3 className="font-semibold text-lg line-clamp-2">{item.name}</h3>
                     <p className="text-sm text-muted-foreground mt-1">Numara: {item.size}</p>
                   </div>
-                  <p className="font-bold text-lg whitespace-nowrap">
+                  <p className="font-bold text-base md:text-lg whitespace-nowrap">
                     ₺{(item.price * item.quantity).toLocaleString("tr-TR")}
                   </p>
                 </div>
@@ -61,24 +61,24 @@ export default function CartPage() {
                     <button
                       onClick={() => updateQuantity(item.id, item.quantity - 1)}
                       disabled={item.quantity <= 1}
-                      className="p-1 hover:bg-secondary rounded-md disabled:opacity-50"
+                      className="p-2 hover:bg-secondary rounded-md disabled:opacity-50"
                     >
-                      <Minus className="h-4 w-4" />
+                      <Minus className="h-5 w-5" />
                     </button>
                     <span className="w-4 text-center text-sm font-medium">
                       {item.quantity}
                     </span>
                     <button
                       onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                      className="p-1 hover:bg-secondary rounded-md"
+                      className="p-2 hover:bg-secondary rounded-md"
                     >
-                      <Plus className="h-4 w-4" />
+                      <Plus className="h-5 w-5" />
                     </button>
                   </div>
 
                   <button
                     onClick={() => removeFromCart(item.id)}
-                    className="text-destructive hover:underline text-sm font-medium flex items-center gap-1"
+                    className="text-destructive hover:underline text-sm font-medium flex items-center gap-1 py-2 px-3 rounded-lg hover:bg-destructive/10 transition-colors"
                   >
                     <Trash2 className="h-4 w-4" /> Kaldır
                   </button>

@@ -1,12 +1,15 @@
+// Prisma Client yapılandırması
 generator client {
   provider = "prisma-client-js"
 }
 
+// Veritabanı bağlantı ayarları
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
+// Sistemdeki kullanıcıları temsil eden model
 model User {
   id        String   @id @default(cuid())
   name      String
@@ -21,6 +24,7 @@ model User {
   addresses Address[]
 }
 
+// Ürün kategorilerini temsil eden model (Örn: Ayakkabı, Giyim vs.)
 model Category {
   id          String    @id @default(cuid())
   name        String
@@ -30,6 +34,7 @@ model Category {
   products    Product[]
 }
 
+// Satışa sunulan ürünleri temsil eden model
 model Product {
   id          String      @id @default(cuid())
   name        String
@@ -47,6 +52,7 @@ model Product {
   sizes       ProductSize[]
 }
 
+// Ürünlerin beden/boyut ve stok bilgilerini tutan model
 model ProductSize {
   id        String  @id @default(cuid())
   productId String
@@ -57,6 +63,7 @@ model ProductSize {
   @@unique([productId, size])
 }
 
+// Kullanıcıların ürünler için yaptığı değerlendirmeleri temsil eden model
 model Review {
   id        String   @id @default(cuid())
   rating    Int
@@ -68,6 +75,7 @@ model Review {
   createdAt DateTime @default(now())
 }
 
+// Kullanıcıların verdiği siparişleri temsil eden ana model
 model Order {
   id              String      @id @default(cuid())
   orderNumber     String      @unique
@@ -84,6 +92,7 @@ model Order {
   items           OrderItem[]
 }
 
+// Sipariş içerisindeki her bir ürünü temsil eden kalem modeli
 model OrderItem {
   id        String  @id @default(cuid())
   orderId   String
@@ -95,6 +104,7 @@ model OrderItem {
   size      String
 }
 
+// Kullanıcıların kayıtlı teslimat ve fatura adreslerini tutan model
 model Address {
   id          String   @id @default(cuid())
   title       String

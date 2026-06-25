@@ -78,7 +78,7 @@ export function Hero3D() {
   const favoriteActive = activeProductId ? isFavorite(activeProductId) : false;
 
   return (
-    <div className="relative w-full h-[90vh] overflow-hidden bg-[#f0f0f0]">
+    <div className="relative w-full h-[70vh] md:h-[90vh] overflow-hidden bg-[#f0f0f0]">
       <ShoeGrid items={filteredProducts} />
 
       <div
@@ -190,14 +190,14 @@ export function Hero3D() {
                 brand: activeProduct.brand,
               });
             }}
-            className={`group flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border shadow-sm transition-all ${
+            className={`group flex h-10 w-10 md:h-9 md:w-9 cursor-pointer items-center justify-center rounded-full border shadow-sm transition-all ${
               favoriteActive
                 ? "border-red-200 bg-red-50"
                 : "border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50"
             }`}
           >
             <Heart
-              className={`pointer-events-none h-4 w-4 transition-all duration-300 ${
+              className={`pointer-events-none h-[18px] w-[18px] md:h-4 md:w-4 transition-all duration-300 ${
                 favoriteActive ? "scale-110 fill-red-500 text-red-500" : "text-gray-400 group-hover:text-red-500"
               } group-active:scale-90`}
             />
@@ -236,7 +236,7 @@ export function Hero3D() {
                 setActiveFilter(f.value);
               }}
               style={{
-                padding: "8px 20px",
+                padding: "10px 18px",
                 borderRadius: 999,
                 fontSize: 13,
                 fontWeight: 500,

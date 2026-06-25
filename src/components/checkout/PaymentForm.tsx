@@ -30,6 +30,7 @@ export function PaymentForm({ paymentDetails, setPaymentDetails, onSubmit, onEdi
             <Label>Kart Numarası</Label>
             <Input
               required
+              inputMode="numeric"
               placeholder="0000 0000 0000 0000"
               maxLength={19}
               value={paymentDetails.cardNumber}
@@ -41,6 +42,7 @@ export function PaymentForm({ paymentDetails, setPaymentDetails, onSubmit, onEdi
               <Label>Son Kullanma Tarihi</Label>
               <Input
                 required
+                inputMode="numeric"
                 placeholder="MM/YY"
                 maxLength={5}
                 value={paymentDetails.expiry}
@@ -51,6 +53,7 @@ export function PaymentForm({ paymentDetails, setPaymentDetails, onSubmit, onEdi
               <Label>CVC</Label>
               <Input
                 required
+                inputMode="numeric"
                 placeholder="123"
                 maxLength={4}
                 value={paymentDetails.cvc}

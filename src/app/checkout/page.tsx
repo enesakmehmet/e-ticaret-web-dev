@@ -109,7 +109,7 @@ export default function CheckoutPage() {
             </div>
             <span className="hidden font-medium sm:block">Teslimat</span>
           </div>
-          <div className={`mx-4 h-1 w-16 ${step >= 2 ? "bg-primary" : "bg-secondary"}`} />
+          <div className={`mx-4 h-1 w-8 sm:w-16 ${step >= 2 ? "bg-primary" : "bg-secondary"}`} />
           <div className={`flex items-center gap-2 ${step >= 2 ? "text-primary" : "text-muted-foreground"}`}>
             <div
               className={`flex h-8 w-8 items-center justify-center rounded-full ${
@@ -120,7 +120,7 @@ export default function CheckoutPage() {
             </div>
             <span className="hidden font-medium sm:block">Ödeme</span>
           </div>
-          <div className="mx-4 h-1 w-16 bg-secondary" />
+          <div className="mx-4 h-1 w-8 sm:w-16 bg-secondary" />
           <div className="flex items-center gap-2 text-muted-foreground">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary">
               <Check className="h-4 w-4" />

@@ -142,6 +142,7 @@ export function ShippingForm({ shippingDetails, setShippingDetails, onSubmit, di
               <Label>{dict.checkout.phone}</Label>
               <Input
                 required
+                inputMode="tel"
                 value={shippingDetails.phone}
                 onChange={(e) => setShippingDetails({ ...shippingDetails, phone: e.target.value })}
               />

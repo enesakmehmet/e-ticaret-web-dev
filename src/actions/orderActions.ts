@@ -5,16 +5,29 @@ import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import type { CartItem, CreateOrderRequest } from "@/types";
 
+/**
+ * Sahte (mock) ödeme bilgilerinin geçerliliğini kontrol eden yardımcı fonksiyon.
+ * @param paymentDetails - Kullanıcının girdiği ödeme detayları.
+ * @returns boolean - Bilgiler geçerli formattaysa true döner.
+ */
 function isValidMockPayment(paymentDetails: CreateOrderRequest["paymentDetails"]) {
+  // Kart numarasındaki boşlukları temizle
   const sanitizedCard = paymentDetails.cardNumber.replace(/\s+/g, "");
+  // Son kullanma tarihi formatı kontrolü (MM/YY)
   const expiryPattern = /^\d{2}\/\d{2}$/;
+  // CVC formatı kontrolü (3 veya 4 haneli)
   const cvcPattern = /^\d{3,4}$/;
 
   return sanitizedCard.length >= 12 && expiryPattern.test(paymentDetails.expiry) && cvcPattern.test(paymentDetails.cvc);
 }
 
+/**
+ * Kullanıcı için yeni bir sipariş oluşturan server action (sunucu eylemi).
+ * @param body - Sepet içeriği, kargo ve ödeme bilgileri dahil sipariş isteği.
+ */
 export async function createOrderAction(body: CreateOrderRequest) {
   try {
+    // Oturum bilgisini alarak kullanıcının giriş yapıp yapmadığını kontrol et
     const session = await getServerSession(authOptions);
 
     if (!session?.user?.id) {
@@ -23,6 +36,7 @@ export async function createOrderAction(body: CreateOrderRequest) {
 
     const { items, shippingDetails, paymentDetails, totalAmount } = body;
 
+    // Gerekli verilerin eksik olup olmadığını kontrol et
     if (!items?.length || !shippingDetails || !paymentDetails || !totalAmount) {
       return { success: false, message: "Eksik bilgi girdiniz." };
     }
@@ -31,9 +45,12 @@ export async function createOrderAction(body: CreateOrderRequest) {
       return { success: false, message: "Mock ödeme bilgileri geçersiz." };
     }
 
+    // Benzersiz bir sipariş numarası oluştur (Örn: ORD-20231015-1234)
     const orderNumber = `ORD-${new Date().toISOString().slice(0, 10).replace(/-/g, "")}-${Math.floor(1000 + Math.random() * 9000)}`;
 
+    // Prisma transaction kullanarak sipariş oluşturma ve stok güncelleme işlemlerini atomik olarak gerçekleştir
     const order = await prisma.$transaction(async (tx) => {
+      // 1. Siparişi veritabanına kaydet
       const newOrder = await tx.order.create({
         data: {
           orderNumber,
@@ -58,6 +75,7 @@ export async function createOrderAction(body: CreateOrderRequest) {
         },
       });
 
+      // 2. Siparişteki her bir ürün için ilgili bedenin stoğunu düşür
       for (const item of items) {
         await tx.productSize.update({
           where: { 

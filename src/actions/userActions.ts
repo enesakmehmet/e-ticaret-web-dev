@@ -5,7 +5,12 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 
+/**
+ * Kullanıcı profil bilgilerini (ad, soyad) güncelleyen server action.
+ * @param data - Güncellenecek ad ve soyad bilgisi.
+ */
 export async function updateProfile(data: { name: string; surname: string }) {
+  // Güvenlik: İşlemi yapan kullanıcının oturumunu kontrol et
   const session = await getServerSession(authOptions);
   
   if (!session?.user?.email) {
@@ -13,6 +18,7 @@ export async function updateProfile(data: { name: string; surname: string }) {
   }
 
   try {
+    // Prisma ile e-postaya göre kullanıcıyı bul ve bilgilerini güncelle
     const user = await prisma.user.update({
       where: { email: session.user.email },
       data: {
@@ -29,6 +35,10 @@ export async function updateProfile(data: { name: string; surname: string }) {
   }
 }
 
+/**
+ * Kullanıcıya yeni bir adres ekleyen server action.
+ * @param data - Eklenecek adresin detayları (başlık, isim, telefon, şehir, ilçe, açık adres vb.)
+ */
 export async function addAddress(data: {
   title: string;
   fullName: string;
@@ -48,7 +58,8 @@ export async function addAddress(data: {
   if (!user) return { success: false, error: "Kullanıcı bulunamadı" };
 
   try {
-    // If setting as default, unset others
+    // Eğer yeni eklenen adres varsayılan (default) olarak işaretlendiyse, 
+    // kullanıcının diğer adreslerindeki varsayılan bayraklarını kaldır.
     if (data.isDefault) {
       await prisma.address.updateMany({
         where: { userId: user.id },
@@ -71,6 +82,11 @@ export async function addAddress(data: {
   }
 }
 
+/**
+ * Mevcut bir adresi güncelleyen server action.
+ * @param id - Güncellenecek adresin benzersiz ID'si.
+ * @param data - Yeni adres bilgileri.
+ */
 export async function updateAddress(
   id: string,
   data: {
@@ -93,7 +109,7 @@ export async function updateAddress(
   if (!user) return { success: false, error: "Kullanıcı bulunamadı" };
 
   try {
-    // Verify ownership
+    // Güvenlik: Güncellenmek istenen adresin gerçekten bu kullanıcıya ait olduğunu doğrula (Ownership check)
     const address = await prisma.address.findUnique({ where: { id } });
     if (!address || address.userId !== user.id) {
       return { success: false, error: "Yetkisiz işlem veya adres bulunamadı" };
@@ -119,6 +135,10 @@ export async function updateAddress(
   }
 }
 
+/**
+ * Kullanıcıya ait bir adresi silen server action.
+ * @param id - Silinecek adresin benzersiz ID'si.
+ */
 export async function deleteAddress(id: string) {
   const session = await getServerSession(authOptions);
   
@@ -130,6 +150,7 @@ export async function deleteAddress(id: string) {
   if (!user) return { success: false, error: "Kullanıcı bulunamadı" };
 
   try {
+    // Güvenlik: Silinmek istenen adresin sahibi ile oturumdaki kullanıcı eşleşiyor mu kontrolü
     const address = await prisma.address.findUnique({ where: { id } });
     if (!address || address.userId !== user.id) {
       return { success: false, error: "Yetkisiz işlem veya adres bulunamadı" };
@@ -145,6 +166,9 @@ export async function deleteAddress(id: string) {
   }
 }
 
+/**
+ * Geçerli oturumdaki kullanıcının tüm adreslerini listeleyen server action.
+ */
 export async function getUserAddresses() {
   const session = await getServerSession(authOptions);
   
@@ -153,6 +177,7 @@ export async function getUserAddresses() {
   }
 
   try {
+    // Kullanıcıyı bulurken "addresses" ilişkisini de include (dahil) et
     const user = await prisma.user.findUnique({
       where: { email: session.user.email },
       include: { addresses: true },

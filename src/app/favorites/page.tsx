@@ -11,7 +11,7 @@ export default function FavoritesPage() {
   return (
     <div className="min-h-screen bg-[#f8f9fa] pb-20 pt-8">
       <div className="container mx-auto max-w-4xl px-4">
-        <div className="mb-8 flex items-center gap-4">
+        <div className="mb-8 flex flex-wrap items-center gap-3">
           <Link href="/">
             <Button variant="ghost" size="icon" className="rounded-full">
               <ArrowLeft className="h-5 w-5" />
@@ -49,7 +49,7 @@ export default function FavoritesPage() {
             </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {items.map((item) => (
               <div
                 key={item.id}
@@ -63,7 +63,7 @@ export default function FavoritesPage() {
                   />
                   <button
                     onClick={() => removeFavorite(item.id)}
-                    className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 text-gray-400 shadow-sm backdrop-blur-sm transition-all hover:bg-white hover:text-red-500"
+                    className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/80 text-gray-400 shadow-sm backdrop-blur-sm transition-all hover:bg-white hover:text-red-500"
                   >
                     <Trash2 className="h-4 w-4" />
                   </button>

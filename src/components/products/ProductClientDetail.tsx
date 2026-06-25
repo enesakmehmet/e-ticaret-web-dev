@@ -76,7 +76,7 @@ export function ProductClientDetail({ product: initialProduct }: { product: Prod
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-12 lg:gap-24 items-start">
+    <div className="flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-24 items-start">
       {/* Product Image Gallery */}
       <div className="w-full md:w-1/2">
         <div className="relative aspect-square bg-[#F5F5F5] rounded-3xl overflow-hidden flex items-center justify-center p-8">
@@ -106,7 +106,7 @@ export function ProductClientDetail({ product: initialProduct }: { product: Prod
             )}
           </div>
         </div>
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
           {product.name}
         </h1>
         <p className="text-2xl font-semibold mb-8">
@@ -132,7 +132,7 @@ export function ProductClientDetail({ product: initialProduct }: { product: Prod
                     key={sizeObj.id}
                     onClick={() => !isOutOfStock && setSelectedSize(sizeObj.size)}
                     disabled={isOutOfStock}
-                    className={`py-2 px-1 rounded-xl border font-medium transition-all flex flex-col items-center justify-center gap-1 ${
+                    className={`py-3 px-2 rounded-xl border font-medium transition-all flex flex-col items-center justify-center gap-1 ${
                       selectedSize === sizeObj.size
                         ? "border-primary bg-primary text-primary-foreground shadow-md"
                         : isOutOfStock
@@ -203,7 +203,7 @@ export function ProductClientDetail({ product: initialProduct }: { product: Prod
                     type="button"
                     key={star}
                     onClick={() => setRating(star)}
-                    className="focus:outline-none"
+                    className="focus:outline-none p-1"
                   >
                     <Star className={`w-6 h-6 ${star <= rating ? 'fill-yellow-400 text-yellow-400' : 'text-gray-300'}`} />
                   </button>

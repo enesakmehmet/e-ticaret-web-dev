@@ -22,11 +22,11 @@ export function ProductCard({ product }: ProductCardProps) {
             src={product.imageUrl}
             alt={product.name}
             fill
-            className="object-contain p-6 object-center group-hover:scale-105 transition-transform duration-500 ease-out mix-blend-multiply drop-shadow-sm"
+            className="object-contain p-4 sm:p-6 object-center group-hover:scale-105 transition-transform duration-500 ease-out mix-blend-multiply drop-shadow-sm"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </CardContent>
-        <CardFooter className="flex flex-col items-start p-4 bg-background">
+        <CardFooter className="flex flex-col items-start p-3 sm:p-4 bg-background">
           <div className="flex justify-between w-full mb-1">
             <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
               {product.brand}

@@ -52,7 +52,7 @@ export default function ContactPage() {
 
           <button 
             type="button" 
-            className="w-full bg-black dark:bg-white text-white dark:text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity"
+            className="w-full bg-black dark:bg-white text-white dark:text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 active:scale-[0.98] transition-all"
           >
             Gönder
           </button>
