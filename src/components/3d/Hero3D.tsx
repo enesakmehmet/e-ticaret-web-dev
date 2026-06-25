@@ -95,7 +95,7 @@ export function Hero3D() {
         }}
       />
 
-      <div className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center justify-center md:bottom-10">
+      <div className="absolute bottom-10 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center justify-center md:bottom-12">
         <div
           className={`absolute flex items-center justify-center gap-2 rounded-[2rem] p-1.5 transition-all duration-500 ease-in-out ${
             activeProduct ? "translate-y-0 scale-100 opacity-100" : "pointer-events-none translate-y-4 scale-95 opacity-0"
