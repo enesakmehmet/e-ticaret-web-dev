@@ -78,3 +78,4 @@ Proje **Railway**, Vercel veya benzeri platformlarda sorunsuz çalışacak şeki
 - Platformlarda ekstra bir veritabanı komutu çalıştırmanıza veya SQL ayarlamanıza gerek yoktur.
 - `package.json` içerisindeki `start` komutu (`"start": "prisma db push && npx tsx prisma/seed.ts && next start"`) sayesinde, proje her ayağa kalktığında veritabanı tabloları otomatik olarak eşitlenir ve gerekli 144 örnek ayakkabı sisteme (`seed`) yüklenir.
 - Tek yapmanız gereken projeyi GitHub'a yükleyip Railway üzerinden deploy etmektir.
+/////////////////////////////
